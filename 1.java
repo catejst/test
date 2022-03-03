@@ -10,3 +10,14 @@ void main(){
 AID092L3M0
 bba2e32ed4f079d9c252ff102469b7af
 }
+
+
+
+c4368de4
+barak
+provider "aws" {
+  alias      = "plain_text_access_keys_provider"
+  region     = "us-west-1"
+  access_key = "AKIAIOSFODNN7EXAMPLE"
+  secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+}
